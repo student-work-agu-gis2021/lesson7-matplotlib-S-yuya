@@ -63,9 +63,13 @@ plt.scatter(
   edgecolor="black"
 )
 plt.colorbar()
+#im.set_title("My random candy points")
+#plt.show()
 # Add labels and title
 # YOUR CODE HERE 4
-
+plt.title("My random candy points")
+plt.xlabel("X-label")
+plt.ylabel("Y-label")
 # Save the plot as a png file:
 outputfp = "my_first_plot.png"
 
