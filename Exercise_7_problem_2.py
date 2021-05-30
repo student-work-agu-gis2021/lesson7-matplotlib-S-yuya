@@ -71,6 +71,7 @@ outputfp = ""
 
 # Save plot as image
 # YOUR CODE HERE 4
+
 outputfp="temp_line_plot.png"
 plt.savefig(outputfp)
 import os
